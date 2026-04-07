@@ -1,0 +1,35 @@
+/* 3. 외부 선택자 */
+.css {
+  background-color: aqua;
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 10px 10px lightblue;
+}
+
+/* hover: 마우스 올렸을 때 스타일 적용 */
+.css:hover {
+  color: red;
+  background-color: yellow;
+  font-weight: bold;
+}
+/* 구글폰트 */
+.black-han-sans-regular {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.song-myung-regular {
+  font-family: "Song Myung", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* 프리탠다드 */
+* {
+  font-family:
+    "Pretendard",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+}

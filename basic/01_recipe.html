@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>레시피</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: linear-gradient(135deg, #93c572 0%, #b7e1a1 100%);
+        min-height: 100vh;
+        font-family: 'Segoe UI', 'Apple SD Gothic Neo', sans-serif;
+        color: #3d1f11;
+        padding: 40px 20px;
+      }
+
+      body > * {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h1 {
+        background: linear-gradient(90deg, #3d1f11, #4b2c19);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 2.2rem;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        margin-bottom: 12px;
+        text-align: center;
+      }
+
+      body > p {
+        background: linear-gradient(135deg, #f8f1e5, #fffdd0);
+        color: #4b2c19;
+        border-left: 5px solid #4b2c19;
+        border-radius: 8px;
+        padding: 14px 20px;
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 18px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      }
+
+      a {
+        display: block;
+        text-align: center;
+        background: linear-gradient(135deg, #3d1f11, #4b2c19);
+        color: #b7e1a1;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 10px 24px;
+        border-radius: 30px;
+        width: fit-content;
+        margin: 0 auto 24px auto;
+        font-size: 0.95rem;
+        box-shadow: 0 4px 12px rgba(61, 31, 17, 0.4);
+        transition: filter 0.2s;
+      }
+
+      a:hover {
+        filter: brightness(1.1);
+      }
+
+      div {
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      }
+
+      img {
+        border-radius: 12px;
+        border: 3px solid #4b2c19;
+        object-fit: cover;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+      }
+
+      h3 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #4b2c19;
+        border-bottom: 2px solid #93c572;
+        padding-bottom: 6px;
+        margin-bottom: 14px;
+      }
+
+      ul,
+      ol {
+        background: rgba(61, 31, 17, 0.1);
+        border: 1px solid rgba(75, 44, 25, 0.4);
+        border-radius: 12px;
+        padding: 20px 28px 20px 40px;
+        margin-bottom: 28px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+      }
+
+      li {
+        line-height: 1.75;
+        font-size: 0.95rem;
+        color: #3d1f11;
+        margin-bottom: 6px;
+      }
+
+      li::marker {
+        color: #4b2c19;
+        font-weight: 700;
+      }
+
+      ol li {
+        padding-left: 6px;
+        margin-bottom: 14px;
+      }
+
+      strong {
+        color: #3d1f11;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>두바이 쫀득쿠키</h1>
+    <p>
+      카다이프 면, 피스타치오 크림, 초콜릿이 어우러진 쫀득한 두바이 스타일 쿠키
+    </p>
+
+    <a href="https://www.youtube.com/watch?v=9q7arOGau0E" target="_blank"
+      >레시피 영상으로 이동</a
+    >
+
+    <div>
+      <img
+        src="https://cdn.thetrippick.com/news/photo/202512/2072_8898_5339.jpg"
+        ,
+        alt="두쫀쿠"
+        ,
+        width="300"
+        ,
+        height="160"
+      />
+      <img
+        src="images/두쫀쿠1.jpg"
+        ,
+        alt="두쫀쿠2"
+        ,
+        width="300"
+        ,
+        height="160"
+      />
+    </div>
+
+    <h3>재료</h3>
+    <ul>
+      <li>2.1 ounces 구운 카다이프 면</li>
+      <li>5.7 ounces 피스타치오 페이스트</li>
+      <li>1.1 ounces 화이트 초콜릿 (녹인 것)</li>
+      <li>3.1 ounces 마시멜로우</li>
+      <li>0.6 ounces 무염 버터</li>
+      <li>0.3 ounces 탈지분유 (or 자판기 우유 파우더)</li>
+      <li>0.5 ounces 코코아파우더 (반죽용)</li>
+      <li>0.7 ounces 코코아파우더 (겉 코팅용)</li>
+      <li>1 teaspoons 식용유 (손에 바를 용)</li>
+    </ul>
+
+    <h3>레시피</h3>
+    <ol>
+      <li>
+        속재료 (필링) 만들기: <br />
+        구운 카다이프 면 2.1 ounces 구운 카다이프 면에 피스타치오 페이스트 5.7
+        ounces 피스타치오 페이스트와 녹인 화이트 초콜릿 1.1 ounces 화이트 초콜릿
+        (녹인 것)을 넣고 주걱으로 골고루 섞어주세요. 라텍스 장갑을 끼고 손으로
+        뭉치면 더 편해요.
+      </li>
+      <li>
+        속재료 냉동 굳히기: <br />섞은 필링을 8개로 동일하게 나눠 동그랗게
+        모양을 잡아주세요. 밀폐용기나 접시에 담아 냉동실에
+        <strong>30분 이상 단단하게</strong> 굳혀주세요. 굳혀야 나중에 마시멜로
+        피로 감쌀 때 모양이 무너지지 않아요.
+      </li>
+      <li>
+        마시멜로 피 만들기: <br />팬에 버터 0.6 ounces 무염 버터를 녹인 뒤
+        마시멜로우 3.1 ounces 마시멜로우를 넣고 완전 약불에서 천천히 녹여주세요.
+        센 불에서 녹이면 쓴맛이 나니 꼭 약불로! 형태가 완전히 사라지면 불을 끄고
+        미리 체에 쳐둔 코코아파우더 0.5 ounces 코코아파우더 (반죽용)와 탈지분유
+        0.3 ounces 탈지분유 (or 자판기 우유 파우더)를 넣고 덩어리 없이
+        <strong>빠르게</strong> 섞어주세요.
+      </li>
+      <li>
+        마시멜로 반죽 식히기 & 분할: <br />기름칠한 그릇이나 바트에 반죽을 부어
+        살짝 식혀주세요. 반죽을 8개로 나눠주세요. 반죽이 너무 굳으면
+        전자레인지에 10초씩 돌려 다시 부드럽게 만들어주세요.
+      </li>
+      <li>
+        성형하기: <br />손에 식용유 1 teaspoons 식용유 (손에 바를 용)를 골고루
+        발라주세요. 마시멜로 반죽 1개를 호떡 만들듯 얇고 넓게 펴주세요.
+        <strong> 피가 얇을수록 맛있어요!</strong> 냉동해 둔 카다이프 속을 가운데
+        올리고 반죽으로 완전히 감싸 동그랗게 모양을 잡아주세요. 반죽이 굳기 전에
+        빠르게 작업해야 해요.
+      </li>
+      <li>
+        코코아파우더 코팅 & 완성:<br />
+        체에 친 코코아파우더 0.7 ounces 코코아파우더 (겉 코팅용)를 그릇에 넉넉히
+        담고 완성된 쿠키를 굴려 겉면 전체에 골고루 묻혀주세요. 냉장고에서 최소
+        2시간 숙성하면 더 맛있어요!
+      </li>
+    </ol>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .highlight {
+        background: yellow;
+        font-weight: bold;
+      }
+      .dark {
+        background: #1a1a1a;
+        color: #fff;
+      }
+      .theme-btn {
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">안녕하세요</h1>
+    <p class="desc">첫 번째 설명</p>
+    <p class="desc">두 번째 설명</p>
+
+    <!-- 이벤트 연결-->
+    <button id="btn">클릭</button>
+    <p id="result">클릭 횟수 표시</p>
+
+    <!-- 실시간 글자수 표시 -->
+    <textarea id="message" placeholder="메시지 입력" cols="40" rows="5">
+    </textarea>
+    <p>글자수: <span id="count">0</span>/100</p>
+
+    <!-- 스타일 변경 -->
+    <p id="text">클릭하면 강조됩니다</p>
+    <button id="btn2">강조 토글</button>
+
+    <br />
+    <!-- 다크모드 토글 -->
+    <button class="theme-btn" id="themeBtn">🌙 다크모드</button>
+
+    <!-- 항목 추가 -->
+    <button id="addBtn">항목 추가</button>
+    <ul id="list">
+      <li>기존 항목</li>
+    </ul>
+
+    <!-- js 연결 -->
+    <script src="06_DOM.js"></script>
+  </body>
+</html>
