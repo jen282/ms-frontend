@@ -1,0 +1,23 @@
+/* tailwindcss를 import하기 전에 폰트를 먼저 import 해야 합니다. */
+/* 다이나믹 서브셋을 사용하여 폰트를 최소한으로 사용합니다. */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
+
+@import "tailwindcss";
+
+/* 기본 폰트를 Pretendard로 설정합니다. */
+@theme {
+  /* 기본 폰트를 Pretendard로 설정합니다. */
+  --font-sans: "Pretendard", sans-serif;
+  /* 색상 테마 설정 */
+  --color-primary: #4f46e5;
+  --color-primary-hover: #4338ca;
+  --color-primary-light: #eef2ff;
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text-main: #0f172a;
+  --color-text-sub: #64748b;
+  --color-border: #e2e8f0;
+  --color-success: #10b981;
+  --color-danger: #ef4444;
+  --color-warning: #f59e0b;
+}
